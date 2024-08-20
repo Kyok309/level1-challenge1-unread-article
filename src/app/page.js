@@ -2,7 +2,7 @@ import { Card } from "./components/card";
 export default function Home() {
   return (
     <main className="min-h-full bg-[#FAFAFA] flex justify-center items-center">
-      <div className="w-[1186px] max-w-[1186px] flex flex-col justify-center items-center px-[35px] tablet:px-[20px]">
+      <div className="w-[1186px] max-w-[1186px] flex flex-col justify-center items-center gap-8 px-[35px] tablet:px-[20px]">
         <div className="w-full flex justify-end">
           <Card profilesrc="tushigt.jpeg"
             author="Tushigt-Erdene"

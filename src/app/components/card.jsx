@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const Card = ({profilesrc, author, date, time, picsrc, category, title, className, textalign, rounded}) => {
     return (
-        <div className="w-4/5 max-w-[739px] min-h-[236px] group flex flex-col hover:-translate-y-1 transition duration-200 tablet:w-full mb-8">
+        <div className="w-4/5 max-w-[739px] min-h-[236px] group flex flex-col hover:-translate-y-1 transition duration-200 tablet:w-full">
             <div className={`flex justify-end items-center gap-4 pt-1 ${className}`}>
                 <div className={`flex flex-col ${textalign}`}>
                     <div className="text-[12.6px] font-semibold decoration-solid decoration-black leading-[17px]">{author}</div>
